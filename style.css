@@ -1,43 +1,408 @@
+/*universal comment*/
 * {
     padding: 0;
     margin: 0;
 }
 
 .navbar {
-    background-color: turquoise;
-    color: black;
-    display: flex;
-    padding:  20px 10px;
+    background-color:white;
+     display: flex;
+    padding:  10px 5px;
+    margin-top: 20px;
+    margin-bottom:0%;
+    text-align: bottom;
 }
 
 .left-content span {
-    padding: 20px;
+    padding-right: 100px;
+   text-align: center;
+   padding-top:100px;
+   padding-bottom: 200px;
+   line-height: 1.6;
+   font-weight: 500;
+   font-size: normal;
+   
+   
 
 }
 .right-content span {
-    padding-left: 440px;
+    padding-left: 60px;
+    padding-right:30px;
+    display:inline;
 }
-.right-content span {
-    padding-right: 30px;
+.right-content {
+    padding-left: 100px;
 }
+
+
 
 .right-content button {
-    padding-left: 30px;
+    padding-left: 5px;
+    ;
 }
 h1 {
     color: red;
+    font-size: 55px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     font-style:bold;
 }
+
 p {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.a:hover {
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+ .action-btns {
+    display: flex;
+ }
+ .a{
+    background-color: red;
+    color: white;
+    width:200px;
+    height: 50px;
+    border-radius: 10px; 
+    border-color: red;
+    text-align: center;
+ }
+ .a:hover {
+    background-color: turquoise;
+    cursor: pointer;
+    transition: 0.5ms;
+    border-color: turquoise;
+ }
+ 
+ .image{
+    display: flex;
+ }
+ .d {
+    display: flex;
+ }
+ .body {
+    margin-top:100px;
+    display: flex;
+ }
+ .b {
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius:10px;
+    border-color: red;
+    padding:5px;
+    margin-right: 10px;
+    font-style: normal;
+    font-size: 18px;
+ }
+ .b:hover {
+    background-color: turquoise;
+    cursor: pointer;
+    transition: 0.5ms;
+ }
+ .c {
+    background-color: white;
+    color: red;
+    width: 300px;
+    height: 50px;
+    border-color: red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-right: 60px;
+    font-style: normal;
+    font-size:18px ;
+ }
+ .c:hover {
+    background-color:turquoise;
+    cursor: pointer;
+    transition: 0.5ms;
+    color: white;
+ }
+ .action-btns {
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 20px;
+    
+ }
+.apply {
+    background-color: red;
+    color: white;
+}
+.apply:hover {
+    background-color: turquoise;
+    cursor: pointer;
+    transition: 0.5ms;
 }
 .image {
-    padding-left: 780px;
-    padding-bottom: 700px;
-    padding-top:0px;
-    margin: 0%;
+    filter: grayscale(1.0);
+}
+.features {
+    background-color: black;
+    border: solid;
+    border-radius: 20px;
+    height: 594;
+    display: grid;
+    
+}
+
+#title {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 0cm;
+}
+
+.features {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-radius: 20px;
+}
+h3 {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}
+.core {
+    text-align: center;
+}
+.header {
+    color: white;
+    text-align: center;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 1.75em;
+   padding: 25px;
+
+}
+.feature-images {
+    width:100px;
+    height: 40px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.feature-images img {
+    padding-left: 25px;
+    padding-right:25px;
+}
+h3 {
+    color:white;
+    text-align:center;
+}
+#data {
+    color: red;
+}
+#software-p {
+    color: red;
+}
+#software-f {
+    color: red;
+}
+
+
+#info {
+    text-align: center;
+    line-height: 1.6;
+    font-size: normal;
+   
+    padding-bottom: 50px;
+}
+   
+     
+
+    .data-science {
+        border: solid;
+        border-color:cadetblue;
+        width: 350px;
+        height: 450px;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .software-part {
+        border: solid;
+        border-color: cadetblue;
+        width: 350px;
+        height: 480px;
+        border-radius: 10px;
+    }
+    .software-full {
+        border: solid;
+        border-color: cadetblue;
+        width: 350px;
+        height: 480px;
+        border-radius:10px ;
+    }
+    
+.container {
+    display: flex;
+    background-color: white;
+    border: solid;
+    border-color: white;
+    justify-content: baseline;
+   
+}
+
+.btn-1 {
+    font-size: large;
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-radius: 10px;
+    width:300px;
+    height: 50px;
+    margin: 20px;
+    
+}
+.btn-1:hover {
+    background-color: turquoise;
+    color: white;
+    cursor: pointer;
+    transition: 0.5ms;
+    border-color: turquoise;
+}
+.btn-2 {
+    font-size: large;
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-radius: 10px;
+    width:300px;
+    height: 50px;
+    margin: 20px;
+    
+}
+.btn-2:hover {
+    background-color: turquoise;
+    color: white;
+    cursor: pointer;
+    transition: 0.5ms;
+    border-color: turquoise;
+}
+.btn-3 {
+    font-size: large;
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-radius: 10px;
+    width:300px;
+    height: 50px;
+    margin: 20px;
+    
+}
+.btn-3:hover {
+    background-color: turquoise;
+    color: white;
+    cursor: pointer;
+    transition: 0.5ms;
+    border-color: turquoise;
+}
+
+#heading {
+    color: red;
+    text-align: center;
+    
+}
+
+   
+.data-science {
+    margin-right: 20px;
+}
+.software-part {
+    margin-right: 30px;
+    padding-bottom: 2.7px;
+}
+
+h4 {
+    font-size: 30px;
+    
+}
+
+#red {
+    color: red;
+}
+.btn-4 {
+    background-color:white;
+    color: black;
+    width: 300px;
+    height: 30px;
+    border:solid;
+    border-radius: 10px;
+   
+
+}
+.btn-4:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+.btn-5 {
+    background-color: black;
+    color: white;
+    border-color:white;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    border: solid;
+}
+.btn-5:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+
+.btn-6 {
+    background-color: red;
+    color: white;
+    border: solid;
+    border-color: red;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.btn-6:hover {
+    background-color: turquoise;
+    border-color: turquoise;
+     cursor: pointer;
+     transition: 0.5ms;
+}
+.join {
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+}
+.container-1 {
+    background-color: bisque;
+    margin-top: 100px;
+    text-align: center;
+    height: 300px;
+    width: auto;
+}
+#white {
+    color: white;
+}
+h4 {
+    color: white;
+}
+#red {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-style: normal;
+
 }
