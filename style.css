@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: turquoise;
+    color: black;
+    display: flex;
+    padding:  20px 10px;
+}
+
+.left-content span {
+    padding: 20px;
+
+}
+.right-content span {
+    padding-left: 440px;
+}
+.right-content span {
+    padding-right: 30px;
+}
+
+.right-content button {
+    padding-left: 30px;
+}
+h1 {
+    color: red;
+}
+
+h2 {
+    font-size: 40px;
+    font-style:bold;
+}
+p {
+    font-size: 20px;
+}
+.image {
+    padding-left: 780px;
+    padding-bottom: 700px;
+    padding-top:0px;
+    margin: 0%;
+}
